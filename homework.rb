@@ -1,4 +1,3 @@
-#  Note: Time.now returns current time as seconds since epoch
 class Fixnum
   def day    ; self * 60 * 60 * 24 ; end
 end
@@ -8,3 +7,4 @@ class Time
 end
 
 puts Time.now.at_beginning_of_year + 1.day
+# => 2017-01-02 00:00:00 +0700
