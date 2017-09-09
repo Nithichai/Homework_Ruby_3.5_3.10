@@ -6,11 +6,11 @@ class Fixnum
   def ago      ; Time.now - self ; end
   def from_now ; Time.now + self ; end
 end
-Time.now    
+puts Time.now
 # => Mon Nov 07 10:18:10 -0800 2011
-5.minutes.ago
+puts 5.minutes.ago
 # => Mon Nov 07 10:13:15 -0800 2011
-5.minutes - 4.minutes
+puts 5.minutes - 4.minutes
 # => 60
-3.hours.from_now
+puts 3.hours.from_now
 # => Mon Nov 07 13:18:15 -0800 2011
